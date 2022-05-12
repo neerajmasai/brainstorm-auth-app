@@ -225,7 +225,7 @@ const LoginForm = () => {
                 label="Password"
               />
               {
-                errors.password.messages.map((msg) => <FormHelperText sx={{ marginTop: '2px', color: '#D32F2F', fontWeight: 'bold' }}>{msg}</FormHelperText>)
+                errors.password.messages.map((msg) => <FormHelperText sx={{ marginTop: '10px', color: '#D32F2F', fontWeight: 'bold' }}>{msg}</FormHelperText>)
               }
             </FormControl> :
 
