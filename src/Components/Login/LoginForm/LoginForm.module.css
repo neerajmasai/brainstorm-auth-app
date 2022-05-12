@@ -1,0 +1,23 @@
+.LoginForm{
+    width: 58%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 4.5%;
+}
+
+.LoginForm form{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.Highlighted{
+    color: #5585E3;
+}
+
+@media screen and (max-width: 768px){
+    .LoginForm{
+        width: 80%;
+    }
+}
+    

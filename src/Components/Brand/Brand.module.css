@@ -1,0 +1,23 @@
+.Brand{
+    width: 40%;
+    min-height: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    padding: 20px;
+    background-color: #296EFA;
+    color: white;
+}
+
+@media screen and (max-width: 768px){
+    .Brand{
+        width: 100%;
+        padding: 20px;
+        background-color: #296EFA;
+        color: white;
+    }
+}
+    

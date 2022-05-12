@@ -1,0 +1,25 @@
+.LoginHeader {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.LoginHeader button{
+    border: none;
+    background-color: transparent;
+    color: #5585E3;
+    font-weight: bold;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 768px){
+    .LoginHeader{
+        align-items: center;
+        justify-content: center;
+    }
+    h4{
+        text-align: center;
+        font-size: 30px !important;
+    }
+}
